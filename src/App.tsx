@@ -38,7 +38,7 @@ function App() {
         <aside className="bg-gradient-to-r from-violet-300 to-violet-400 flex flex-col flex-1 p-6 items-center justify-between">
           <div className="max-w-[70%] rounded-full border-4 border-white overflow-hidden inline-block">
             <img
-              src="/sidebar-image.jpg"
+              src="/portfolio/sidebar-image.jpg"
               alt=""
               className="w-full rounded-full hover:scale-110 duration-300 transition-transform"
             />
@@ -72,7 +72,7 @@ function App() {
                 return (
                   <img
                     key={imgPath}
-                    src={`/icons/icons8-${imgPath}.png`}
+                    src={`/portfolio/icons/icons8-${imgPath}.png`}
                     className="w-4 h-4 hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -87,7 +87,7 @@ function App() {
                 return (
                   <img
                     key={imgPath}
-                    src={`/icons/icons8-${imgPath}.png`}
+                    src={`/portfolio/icons/icons8-${imgPath}.png`}
                     className="w-4 h-4 hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -102,7 +102,7 @@ function App() {
                 return (
                   <img
                     key={imgPath}
-                    src={`/icons/icons8-${imgPath}.png`}
+                    src={`/portfolio/icons/icons8-${imgPath}.png`}
                     className="w-4 h-4 hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -183,9 +183,9 @@ function App() {
         </div>
       </main>
       <footer className="bg-violet-500 h-60 font-comfortaa">
-        <img src="/footer-bg-1.png" alt="" className="h-full" />
+        <img src="/portfolio/footer-bg-1.png" alt="" className="h-full" />
         <img
-          src="/footer-bg-2.png"
+          src="/portfolio/footer-bg-2.png"
           alt=""
           className="absolute left-[35%] -bottom-[10%]"
         />
@@ -194,7 +194,11 @@ function App() {
             className="flex items-center gap-2"
             href="https://github.com/marysclair"
           >
-            <img src="/icons/icons8-github-30.png" alt="" className="w-7 h-7" />
+            <img
+              src="/portfolio/icons/icons8-github-30.png"
+              alt=""
+              className="w-7 h-7"
+            />
             <h5 className="font-semibold text-white">marysclair</h5>
           </a>
           <a
@@ -202,7 +206,7 @@ function App() {
             href="https://www.linkedin.com/in/maria-clara-ramalho-medeiros-96a94b247/"
           >
             <img
-              src="/icons/icons8-linkedin-50.png"
+              src="/portfolio/icons/icons8-linkedin-50.png"
               alt=""
               className="w-7 h-7"
             />
@@ -215,7 +219,7 @@ function App() {
             href="https://codesandbox.io/u/ramalho.maria"
           >
             <img
-              src="/icons/icons8-codesandbox-48.png"
+              src="/portfolio/icons/icons8-codesandbox-48.png"
               alt=""
               className="w-7 h-7"
             />
@@ -223,7 +227,7 @@ function App() {
           </a>
         </div>
         <img
-          src="/bg-footer-3.png"
+          src="/portfolio/bg-footer-3.png"
           alt=""
           className="absolute right-0 -bottom-[35.2%]"
         />

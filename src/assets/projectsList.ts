@@ -7,7 +7,7 @@ const projectList = [
     description:
       "A minha solução para o desafio Todo app do Frontend Mentor. Esse desafio foi escolhido para praticar desenvolvimento Mobile, utilizando um projeto Expo + React Native + Native Wind.",
     link: "https://github.com/marysclair/FrontendMentor-AppToDo",
-    imagePath: "/imagesProject/frontendmentor-todoapp.jpg",
+    imagePath: "/portfolio/imagesProject/frontendmentor-todoapp.jpg",
     tags: ["Expo", "React Native", "Native Wind", "Typescript"],
     date: "04/04/2024",
   },
@@ -17,7 +17,8 @@ const projectList = [
     description:
       "A minha solução para o desafio Bookmark landing page do Frontend Mentor. Esse desafio foi escolhido para praticar as funcionalidades do framework Astro, utilizando um projeto Astro + React + Tailwind.",
     link: "https://github.com/marysclair/FrontendMentor-BookmarkLandingPage",
-    imagePath: "/imagesProject/frontendmentor-bookmarklandingpage.png",
+    imagePath:
+      "/portfolio/imagesProject/frontendmentor-bookmarklandingpage.png",
     tags: ["Astro", "React", "Tailwind CSS"],
     date: "10/05/2024",
   },
@@ -73,7 +74,7 @@ const projectList = [
     description:
       "O projeto foi desenvolvido com o objetivo de criar uma aplicação para persistir, listar, atualizar e excluir dados de ocorrências policiais, utilizando MongoDB Atlas e Mongo Charts Além disso, utiliza o aura em conjunto com o neo4j como banco de grafos para manter os relacionamentos de horários das ocorrências e seus tipos. ",
     link: "https://github.com/marysclair/projetos-BANCO-II",
-    imagePath: "/imagesProject/frontendmentor-crimetalk.png",
+    imagePath: "/portfolio/imagesProject/frontendmentor-crimetalk.png",
     tags: ["Nextjs", "Tailwind CSS", "React", "neo4j", "MongoDB"],
     date: "14/12/2023",
   },
@@ -92,7 +93,8 @@ const projectList = [
     description:
       "A minha solução para o desafio Interactive comments section do Frontend Mentor. Essa foi minha terceira vez usando React, mas o primeiro projeto focado principalmente em suas funcionalidades, feito com Next.js, React, Node.js, Typescript e Tailwind CSS.",
     link: "https://github.com/marysclair/Frontend-Mentor---Interactive-comments-section-solution",
-    imagePath: "/imagesProject/frontendmentor-interactivecommentssection.png",
+    imagePath:
+      "/portfolio/imagesProject/frontendmentor-interactivecommentssection.png",
     tags: [
       "Next.js",
       "React",
@@ -109,7 +111,7 @@ const projectList = [
     description:
       "A minha solução para o desafio Intro section with dropdown navigation solution do Frontend Mentor. Foi escolhido esse desafio principalmente para testar o framework Bootstrap juntamente ao SASS para estilização.",
     link: "https://github.com/marysclair/Frontend-Mentor-Intro-section-with-dropdown-navigation",
-    imagePath: "/imagesProject/frontendmentor-introsection.png",
+    imagePath: "/portfolio/imagesProject/frontendmentor-introsection.png",
     tags: ["Html", "Bootstrap 5", "SCSS"],
     date: "01/04/2023",
   },
@@ -137,7 +139,7 @@ const projectList = [
     description:
       "Projeto final da disciplina GCM 2023.1, que consiste na criação de um site para o curso de análise e desenvolvimento de sistemas do IFPB-Campus Cajazeiras.",
     link: "https://g4ma.github.io/",
-    imagePath: "/imagesProject/frontendmentor-websiteads.png",
+    imagePath: "/portfolio/imagesProject/frontendmentor-websiteads.png",
     tags: ["Html", "CSS", "Javascript"],
     date: "12/02/2023",
   },
@@ -147,7 +149,7 @@ const projectList = [
     description:
       "Gerador de fotos aleatórias de gatos a cada vez que clicar no botão. Projeto feito para praticar o consumo de uma API usando o fetch.",
     link: "https://codesandbox.io/p/sandbox/gatinhos-fofinhos-frzx6e",
-    imagePath: "/imagesProject/frontendmentor-geradorfotogato.png",
+    imagePath: "/portfolio/imagesProject/frontendmentor-geradorfotogato.png",
     tags: ["Html", "CSS", "Javascript", "Node.js"],
     date: "15/02/2023",
   },
@@ -157,7 +159,7 @@ const projectList = [
     description:
       "Uma lista de compras que utiliza LocalStorage para armazenar os itens da lista.",
     link: "https://koiru3.csb.app",
-    imagePath: "/imagesProject/frontendmentor-listadecompra.png",
+    imagePath: "/portfolio/imagesProject/frontendmentor-listadecompra.png",
     tags: ["Html", "CSS", "Javascript"],
     date: "11/02/2023",
   },
