@@ -15,12 +15,12 @@ export default function Card({
     <div className="h-fit p-2 bg-violet-50 rounded-lg border-2 border-violet-100 shadow-md group">
       <div>
         {imagePath && (
-          <div>
-            <div className="relative z-10 w-full h-44 bg-gradient-to-r from-violet-300/60 to-violet-400/60 scale-105 group-hover:opacity-0 transition-all duration-300"></div>
+          <div className="relative">
+            <div className="absolute z-10 w-full h-full bg-gradient-to-r from-violet-300/60 to-violet-400/60 scale-105 group-hover:opacity-0 transition-all duration-300 rounded-sm"></div>
             <img
               src={imagePath}
               alt=""
-              className="relative w-full scale-105 transition-all duration-300 border-b-4 group-hover:scale-100  group-hover:border-4 border-white mb-4 -mt-44 z-0"
+              className="relative w-full scale-105 transition-all duration-300 border-b-4 group-hover:scale-100  group-hover:border-4 border-white mb-4 z-0 rounded-sm"
             />
           </div>
         )}

@@ -43,15 +43,18 @@ function App() {
               className="w-full rounded-full hover:scale-110 duration-300 transition-transform"
             />
           </div>
-          <h2 className="text-base font-semibold text-white mt-8 mb-4 border-b-2 border-b-white">
-            Sobre mim
-          </h2>
-          <p className="text-justify">
-            Eu sou <span>Maria Clara</span>, estudante do quinto período de ADS.
-            Gosto muito de estudar novas tecnologias que me despertem o
-            interesse, principalmente se for para desenvolvimento Web. Cats and
-            plants lover! 19y fullstack developer
-          </p>
+          <div>
+            <h2 className="text-base font-semibold text-white mt-8 mb-4 border-b-2 border-b-white">
+              Sobre mim
+            </h2>
+            <p className="text-justify">
+              Eu sou <span className="font-semibold">Maria Clara</span>,
+              estudante do último período de ADS. Gosto muito de estudar novas
+              tecnologias que me despertem o interesse, principalmente se for
+              para desenvolvimento Web. Cats and plants lover! 20y fullstack
+              developer
+            </p>
+          </div>
 
           <div className="w-full list-none mt-6">
             <li className="flex items-center gap-1 border-b-2 border-white font-semibold">
@@ -83,7 +86,13 @@ function App() {
               <Heart size={12} color="white" /> Gosto:
             </li>
             <div className="grid grid-cols-6 gap-x-4 mt-1 p-2 rounded-lg bg-white/50 hover:shadow-md transition-all duration-300">
-              {["nextjs-48", "python-48", "c-48", "java-48"].map((imgPath) => {
+              {[
+                "nextjs-48",
+                "python-48",
+                "c-48",
+                "java-48",
+                "logotipo-da-primavera-40",
+              ].map((imgPath) => {
                 return (
                   <img
                     key={imgPath}
@@ -182,16 +191,16 @@ function App() {
           </div>
         </div>
       </main>
-      <footer className="bg-violet-500 h-60 font-comfortaa">
+      <footer className="relative bg-violet-500 h-60 font-comfortaa">
         <img src="/portfolio/footer-bg-1.png" alt="" className="h-full" />
         <img
           src="/portfolio/footer-bg-2.png"
           alt=""
-          className="absolute left-[35%] -bottom-[10%]"
+          className="absolute left-[35%] top-0"
         />
-        <div className="absolute left-1/2 -translate-x-1/2 -bottom-[22%] flex gap-4 divide-x-2 divide-white">
+        <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 flex items-center gap-4">
           <a
-            className="flex items-center gap-2"
+            className=" flex items-center gap-2 hover:border-b-white border-b-2 border-transparent transition-all duration-300"
             href="https://github.com/marysclair"
           >
             <img
@@ -201,21 +210,21 @@ function App() {
             />
             <h5 className="font-semibold text-white">marysclair</h5>
           </a>
+          <div className="h-8 w-[1px] bg-white"></div>
           <a
-            className="pl-4 flex items-center gap-2 group"
-            href="https://www.linkedin.com/in/maria-clara-ramalho-medeiros-96a94b247/"
+            className=" flex items-center gap-2 hover:border-b-white border-b-2 border-transparent transition-all duration-300"
+            href="https://www.linkedin.com/in/clara-ramalho-96a94b247/"
           >
             <img
               src="/portfolio/icons/icons8-linkedin-50.png"
               alt=""
               className="w-7 h-7"
             />
-            <h5 className="font-semibold text-white">
-              Maria Clara Ramalho Medeiros
-            </h5>
+            <h5 className="font-semibold text-white">Clara Ramalho</h5>
           </a>
+          <div className="h-8 w-[1px] bg-white"></div>
           <a
-            className="pl-4 flex items-center gap-2 group"
+            className="flex items-center gap-2 hover:border-b-white border-b-2 border-transparent transition-all duration-300"
             href="https://codesandbox.io/u/ramalho.maria"
           >
             <img
@@ -229,7 +238,7 @@ function App() {
         <img
           src="/portfolio/bg-footer-3.png"
           alt=""
-          className="absolute right-0 -bottom-[35.2%]"
+          className="absolute right-0 bottom-0"
         />
       </footer>
     </>

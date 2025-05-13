@@ -293,6 +293,43 @@ const projectList = [
     tags: ["python"],
     date: "06/11/2023",
   },
+  {
+    id: "eb4f7d2a-d826-4905-92cc-fce46c06af70",
+    title: "PROJETO 1 - Animações com GSAP",
+    description:
+      "Primeiro projeto feito com GSAP apresentado no primeiro dia do minicurso [Animações Dinâmicas: Do 2D ao 3D com GSAP e Three.js], ministrado por mim. Nele, é animado um desafio do Frontend Mentor Challenges.",
+    link: "https://github.com/marysclair/Projeto-GSAP-1",
+    tags: ["Html", "Tailwind CSS", "Javascript", "GSAP"],
+    date: "09/12/2024",
+  },
+  {
+    id: "9e854cf8-4e5b-42ba-b650-3c190754c193",
+    title: "PROJETO 2 - Animações com GSAP",
+    description:
+      "Segundo projeto feito com GSAP apresentado no primeiro dia do minicurso [Animações Dinâmicas: Do 2D ao 3D com GSAP e Three.js], ministrado por mim. Nele, é animado um desafio do Frontend Mentor Challenges.",
+    link: "https://github.com/marysclair/Projeto-GSAP-2",
+    tags: ["Html", "Tailwind CSS", "Javascript", "GSAP"],
+    date: "09/12/2024",
+  },
+  {
+    id: "2b699156-d008-408f-8cad-ca4188db0a91",
+    title: "PROJETO - Texto e animações 3D feitos com Three.js",
+    description:
+      "Projeto feito com Three.js apresentado no segundo dia do minicurso [Animações Dinâmicas: Do 2D ao 3D com GSAP e Three.js], ministrado por mim. Nele, é desenvolvido um texto 3D e animações com GSAP.",
+    link: "https://github.com/marysclair/Three.js-Projeto-Principal",
+    tags: ["Html", "Tailwind CSS", "Javascript", "Three.js", "GSAP"],
+    date: "10/12/2024",
+  },
+  {
+    id: "0a03cf42-d331-4b63-940d-9dd1575e8bd0",
+    title:
+      "MOBILE - EstacionaAqui: Uma aplicação que auxilia a localização de vagas de estacionamento",
+    description:
+      "Projeto para disciplina de Programação para Dispositivos Móveis 2024.1. Este projeto tem como principal objetivo fornecer um aplicativo móvel que consome a API desenvolvida anteriormente, que resolve o desafio da falta de divulgação e conhecimento das vagas disponíveis em estacionamentos, oferecendo um sistema no qual os proprietários de estacionamentos podem registrar todas as vagas disponíveis.",
+    link: "https://github.com/g4ma/Projeto-PDM",
+    tags: ["Expo", "React Native", "Native Wind", "Typescript"],
+    date: "27/09/2024",
+  },
 ];
 
 export default projectList.sort((a: ProjectType, b: ProjectType) => {
